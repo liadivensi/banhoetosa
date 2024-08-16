@@ -20,9 +20,32 @@
     <main>
         <section class="scheduling">
             <h2>Agendamento</h2>
-            <p>Para agendar um horário, entre em contato conosco pelo telefone (11) 1234-5678 ou pelo e-mail agendamento@petshine.com.br.</p>
-            <p>Nosso horário de funcionamento é de segunda a sexta, das 9h às 18h, e aos sábados, das 9h às 14h.</p>
-            <p>Estamos localizados na Rua das Flores, 123, São Paulo - SP.</p>
+            <p>Para agendar um horário para o banho e tosa do seu pet, preencha o formulário abaixo ou entre em contato conosco pelo telefone (11) 1234-5678.</p>
+            <p>Nós estamos localizados na Rua das Flores, 123, São Paulo - SP.</p>
+
+            <form action="submit_form.php" method="POST">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="date">Data desejada:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="time">Hora desejada:</label>
+                <input type="time" id="time" name="time" required>
+                <label for="pet">Nome do Pet:</label>
+                <input type="text" id="pet" name="pet" required>
+
+                <label for="message">Observações:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
         </section>
     </main>
 
