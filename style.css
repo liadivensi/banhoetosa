@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #e0f7fa; /* Verde claro */
+    color: #ff4081; /* Rosa */
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #ff4081; /* Rosa */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+.about, .scheduling {
+    margin-bottom: 20px;
+}
+
+.gallery {
+    margin-top: 20px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    max-width: 300px;
+    margin: 5px;
+}
+footer {
+    background-color: #e0f7fa; /* Verde claro */
+    color: #ff4081; /* Rosa */
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
