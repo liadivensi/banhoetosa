@@ -6,8 +6,8 @@ body {
 }
 
 header {
-    background-color: #e0f7fa; /* Verde claro */
-    color: #ff4081; /* Rosa */
+    background-color: #A4D9C8; /* Verde Claro */
+    color: #F48FB1; /* Rosa */
     padding: 10px 0;
     text-align: center;
 }
@@ -20,13 +20,14 @@ nav ul {
     list-style: none;
     padding: 0;
 }
+
 nav ul li {
     display: inline;
     margin-right: 15px;
 }
 
 nav ul li a {
-    color: #ff4081; /* Rosa */
+    color: #F48FB1; /* Rosa */
     text-decoration: none;
 }
 
@@ -36,7 +37,9 @@ nav ul li a:hover {
 
 main {
     padding: 20px;
+    background-color: #F0F0F0; /* Cinza Claro */
 }
+
 .about, .scheduling {
     margin-bottom: 20px;
 }
@@ -50,9 +53,10 @@ main {
     max-width: 300px;
     margin: 5px;
 }
+
 footer {
-    background-color: #e0f7fa; /* Verde claro */
-    color: #ff4081; /* Rosa */
+    background-color: #A4D9C8; /* Verde Claro */
+    color: #F48FB1; /* Rosa */
     text-align: center;
     padding: 10px 0;
     position: fixed;
